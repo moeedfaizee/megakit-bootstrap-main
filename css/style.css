@@ -74,7 +74,7 @@ p {
 }
 
 .navbar-toggle .icon-bar {
-  background: rgb(247, 87, 87);
+  background: rgb(244, 1, 1);
 }
 
 input[type="email"],
@@ -91,7 +91,7 @@ input[type="password"]:focus,
 input[type="text"]:focus,
 input[type="tel"]:focus {
   box-shadow: none;
-  border: 1px solid rgb(247, 87, 87);
+  border: 1px solid rgb(244, 1, 1);
 }
 
 .form-control {
@@ -100,7 +100,7 @@ input[type="tel"]:focus {
 }
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid rgb(247, 87, 87);
+  border: 1px solid rgb(244, 1, 1);
 }
 
 .py-7 {
@@ -130,7 +130,7 @@ input[type="tel"]:focus {
 .btn-main,
 .btn-small,
 .btn-transparent {
-  background: rgb(247, 87, 87);
+  background: rgb(244, 1, 1);
   color: #fff;
   transition: all 0.2s ease;
 }
@@ -142,23 +142,23 @@ input[type="tel"]:focus {
 }
 
 .btn-solid-border {
-  border: 2px solid rgb(247, 87, 87);
+  border: 2px solid rgb(244, 1, 1);
   background: transparent;
   color: #242424;
 }
 .btn-solid-border:hover {
-  border: 2px solid rgb(247, 87, 87);
-  background: rgb(247, 87, 87);
+  border: 2px solid rgb(244, 1, 1);
+  background: rgb(244, 1, 1);
 }
 
 .btn-transparent {
   background: transparent;
   padding: 0;
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 .btn-transparent:hover {
   background: transparent;
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 
 .btn-large {
@@ -173,6 +173,7 @@ input[type="tel"]:focus {
 .btn-small {
   padding: 13px 25px 10px;
   font-size: 12px;
+  border-radius: 50px;
 }
 
 .btn-round {
@@ -194,7 +195,7 @@ input[type="tel"]:focus {
 }
 
 .bg-primary {
-  background: rgb(247, 87, 87);
+  background: rgb(244, 1, 1);
 }
 
 .bg-primary-dark {
@@ -239,7 +240,7 @@ input[type="tel"]:focus {
 }
 
 .subtitle {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
   font-size: 14px;
   letter-spacing: 1px;
 }
@@ -266,7 +267,7 @@ input[type="tel"]:focus {
   height: 100%;
   opacity: 0.5;
   background: #000;
-  border-radius: 40px;
+  border-radius: 0px 0px 40px 40px;
 }
 
 .overly-2,
@@ -291,7 +292,7 @@ input[type="tel"]:focus {
 }
 
 .text-color {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 
 .text-black {
@@ -330,7 +331,7 @@ a {
 
 a:focus,
 a:hover {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
   text-decoration: none;
 }
 
@@ -443,7 +444,7 @@ a:focus {
 #navbar .nav-link:hover,
 #navbar .nav-link:focus,
 #navbar .active .nav-link {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 #navbar .btn {
   padding: 0.7rem 1.5rem 0.5rem;
@@ -474,7 +475,7 @@ a:focus {
   padding: 0 8px;
 }
 .header-top .header-top-socials a:hover {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 .header-top .header-top-info {
   color: #919194;
@@ -503,7 +504,7 @@ a:focus {
   letter-spacing: 1px;
 }
 .navbar-brand span {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 
 .dropdown-menu {
@@ -570,7 +571,7 @@ a:focus {
 .dropdown-submenu:hover > .dropdown-item,
 .dropdown-item.active,
 .dropdown-item:hover {
-  background: rgb(247, 87, 87);
+  background: rgb(244, 1, 1);
   color: #fff;
 }
 
@@ -621,6 +622,8 @@ ul.dropdown-menu li {
   padding: 200px 0;
   position: relative;
   border-radius: 0px 0px 40px 40px;
+  transform: translateY(-5px);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 768px) {
   .slider {
@@ -650,7 +653,7 @@ ul.dropdown-menu li {
 }
 
 .color-one {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 
 .color-two {
@@ -846,7 +849,7 @@ ul.dropdown-menu li {
   border-color: #dedede;
 }
 .pricing .btn-solid-border:hover {
-  border-color: rgb(247, 87, 87);
+  border-color: rgb(244, 1, 1);
 }
 
 .portflio-item .portfolio-item-content {
@@ -864,7 +867,7 @@ ul.dropdown-menu li {
   top: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(145, 6, 6, 1);
   opacity: 0;
   transition: all 0.35s ease;
   overflow: hidden;
@@ -888,7 +891,7 @@ ul.dropdown-menu li {
   align-items: center;
   justify-content: center;
   font-size: 80px;
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
   opacity: 0;
   transition: all 0.35s ease;
 }
@@ -953,7 +956,7 @@ ul.dropdown-menu li {
   transition: all 0.4s ease 0s;
 }
 .blog-item-content h3 a:hover {
-  color: rgb(247, 87, 87) !important;
+  color: rgb(244, 1, 1) !important;
 }
 
 .lh-36 {
@@ -1006,7 +1009,7 @@ h3.quote::before {
   content: "";
   width: 55px;
   height: 2px;
-  background: rgb(247, 87, 87);
+  background: rgb(244, 1, 1);
   position: absolute;
   top: 25px;
   left: 0;
@@ -1035,6 +1038,7 @@ h3.quote::before {
 
 .border-1 {
   border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5) !important;
 }
 
 .blog-item {
@@ -1079,7 +1083,7 @@ h3.quote::before {
   font-weight: 500;
 }
 .post-comments .comment-author a {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -1090,7 +1094,7 @@ h3.quote::before {
   font-size: 12px;
 }
 .post-comments .comment-button {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
   display: inline-block;
   margin-left: 5px;
   font-size: 12px;
@@ -1100,7 +1104,7 @@ h3.quote::before {
   display: inline-block;
 }
 .post-comments .comment-button:hover {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 
 .post-excerpt {
@@ -1118,7 +1122,7 @@ h3.quote::before {
 .post-excerpt blockquote.quote-post p {
   line-height: 30px;
   font-size: 20px;
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 
 .single-blog {
@@ -1145,7 +1149,7 @@ h3.quote::before {
   color: #000;
 }
 .next-prev a:hover {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 .next-prev .prev-post i {
   margin-right: 10px;
@@ -1164,7 +1168,7 @@ h3.quote::before {
   font-size: 16px;
 }
 .social-profile ul li a i:hover {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 
 .comments-section {
@@ -1208,7 +1212,7 @@ h3.quote::before {
   margin-bottom: 8px;
 }
 .comment-wrap .media .media-heading a {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
   font-size: 13px;
 }
 .comment-wrap .media .comment-meta {
@@ -1231,7 +1235,7 @@ h3.quote::before {
 .comment-reply-form input:focus,
 .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid rgb(247, 87, 87);
+  border: 1px solid rgb(244, 1, 1);
 }
 .comment-reply-form textarea,
 .comment-reply-form .btn-main,
@@ -1275,7 +1279,7 @@ h3.quote::before {
   padding-right: 10px;
 }
 .widget.widget-category ul li a:hover {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
   padding-left: 5px;
 }
 .widget.widget-tag ul li {
@@ -1294,8 +1298,8 @@ h3.quote::before {
 }
 .widget.widget-tag ul li a:hover {
   color: #fff;
-  background: rgb(247, 87, 87);
-  border: 1px solid rgb(247, 87, 87);
+  background: rgb(244, 1, 1);
+  border: 1px solid rgb(244, 1, 1);
 }
 
 .footer {
@@ -1315,7 +1319,7 @@ h3.quote::before {
   letter-spacing: 1px;
 }
 .logo span {
-  color: rgb(247, 87, 87);
+  color: rgb(244, 1, 1);
 }
 
 .sub-form {
@@ -1341,7 +1345,7 @@ h3.quote::before {
   z-index: 999;
   height: 40px;
   width: 40px;
-  background: rgb(247, 87, 87);
+  background: rgb(244, 1, 1);
   border-radius: 50%;
   text-align: center;
   line-height: 43px;
