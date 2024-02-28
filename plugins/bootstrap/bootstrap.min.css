@@ -38,7 +38,8 @@
 *,
 ::after,
 ::before {
-    box-sizing: border-box
+    box-sizing: border-box;
+    
 }
 
 html {
@@ -503,7 +504,9 @@ mark {
 
 .img-fluid {
     max-width: 100%;
-    height: auto
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 .img-thumbnail {
@@ -2873,7 +2876,8 @@ textarea.form-control.is-invalid {
 
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
-    box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.3) !important;
+    box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.8) !important;
+    border-radius: 40px;
 }
 
 a.btn.disabled,

@@ -100,31 +100,8 @@
 												href="service.html">Services</a></li>
 										<li class="nav-item @@project"><a class="nav-link"
 												href="project.html">Portfolio</a></li>
-										<li class="nav-item dropdown @@blog">
-											<a class="nav-link dropdown-toggle" href="#" id="dropdown05"
-												data-toggle="dropdown" aria-haspopup="true"
-												aria-expanded="false">Blog <i
-													class="fas fa-chevron-down small"></i></a>
-											<ul class="dropdown-menu" aria-labelledby="dropdown05">
-												<li><a class="dropdown-item @@blogGrid" href="blog-grid.html">Blog
-														Grid</a></li>
-												<li><a class="dropdown-item @@blogSidebar"
-														href="blog-sidebar.html">Blog with Sidebar</a></li>
-												<li><a class="dropdown-item @@blogSingle"
-														href="blog-single.html">Blog Single</a></li>
-
-												<li class="dropdown dropdown-submenu dropleft">
-													<a class="dropdown-item dropdown-toggle" href="#!"
-														id="dropdown0501" role="button" data-toggle="dropdown"
-														aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-													<ul class="dropdown-menu" aria-labelledby="dropdown0501">
-														<li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-														<li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
+												<li class="nav-item @@service"><a class="nav-link"
+													href="blog-grid.html">BLOG</a></li>
 										<li class="nav-item @@contact"><a class="nav-link"
 												href="contact.html">Contact</a></li>
 									</ul>
@@ -213,8 +190,9 @@
 					<div class="col-lg-6 offset-lg-6 offset-md-0">
 						<div class="about-item ">
 							<span class="h6 text-color">What we are</span>
-							<h2 class="mt-3 mb-4 position-relative content-title">We are dynamic team
-								of creative people</h2>
+							<h4 class="mt-3 mb-4 content-title with-shadow">We work with business & provide solution
+								to client with their business problem
+							</h4>
 							<div class="about-content">
 								<h4 class="mb-3 position-relative">We are Perfect Solution</h4>
 								<p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -273,7 +251,7 @@
         background-color: #fff;
         border-radius: 10px;
         padding: 20px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
         transition: all 0.3s ease;
     }
 
@@ -304,60 +282,31 @@
     .intro-item p {
         transition: all 0.3s ease; /* Add transition for smooth color change */
     }
+	
+
 		</style>
 	
 	
-	<section class="section intro">
-		<div class="container">
-			<div class="row ">
-				<div class="col-lg-8">
-					<div class="section-title">
-						<span class="h6 text-color ">We are creative &amp; expert people</span>
-						<h2 class="mt-3 content-title">We work with business &amp; provide solution to client with their business problem</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-4 col-md-6 col-12">
-					<div class="intro-item mb-5 mb-lg-0">
-						<i class="ti-desktop color-one"></i>
-						<h4 class="mt-4 mb-3">Modern &amp; Responsive design</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="intro-item mb-5 mb-lg-0">
-						<i class="ti-medall color-one"></i>
-						<h4 class="mt-4 mb-3">Awarded licensed company</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-12">
-					<div class="intro-item">
-						<i class="ti-layers-alt color-one"></i>
-						<h4 class="mt-4 mb-3">Build your website</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	
 		<!--  Section Services End -->
+<style>
+	.shadow-20 {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 2);
+}
 
+</style>
 		<!-- Section Cta Start -->
 		<section class="section cta">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-5 col-lg-6">
-						<div class="cta-item  bg-white p-5 rounded" id="cta-item">
+						<div class="cta-item bg-white p-5 rounded shadow-20" id="cta-item">
 							<span class="h6 text-color">We create for you</span>
-							<h2 class="mt-2 mb-4">Entrust Your Project to Our Best Team of
-								Professionals</h2>
-							<p class="lead mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing
-								elit. Culpa pariatur,
-								:</p>
-							<h3><i class="ti-mobile mr-3 text-color"></i>+9173 503 47 4776</h3>
+							<h2 class="mt-2 mb-4">Entrust Your Project to Our Best Team of Professionals</h2>
+							<p class="lead mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa pariatur, :</p>
+							<h3><i class="ti-mobile mr-3 text-color"></i>+91 7350 347 476</h3>
 						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -603,11 +552,14 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="widget">
 							<div class="logo mb-4">
-								<h3>G<span>Max</span></h3>
+								<a class="navbar-brand" href="index.html">
+									<img src="../megakit-bootstrap-main/images/Mask group.png" width="150px" height="50px" alt="GMax Logo">
+									
+								</a>
 							</div>
 							<h6><a href="#">g-max@gmail.com</a></h6>
 							<a href="#"><span
-									class="text-color h4">+9173 503 47 4776</span></a>
+									class="text-color h4">+91 7350 347 476</span></a>
 						</div>
 					</div>
 				</div>

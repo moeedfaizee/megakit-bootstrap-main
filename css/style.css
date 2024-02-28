@@ -275,6 +275,7 @@ input[type="tel"]:focus {
 .cta-block,
 .bg-counter {
   position: relative;
+  border-radius: 40px;
 }
 .overly-2:before,
 .latest-blog:before,
@@ -289,6 +290,8 @@ input[type="tel"]:focus {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
+  border-radius: 40px;
+
 }
 
 .text-color {
@@ -342,6 +345,7 @@ a:focus {
 .content-title {
   font-size: 40px;
   line-height: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .page-title {
@@ -608,6 +612,8 @@ ul.dropdown-menu li {
 .bg-1 {
   background: url("../images/bg/projects.png") no-repeat 50% 50%;
   background-size: cover;
+  border-radius: 0px 0px 40px 40px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 .bg-2 {
@@ -650,6 +656,8 @@ ul.dropdown-menu li {
 .intro-item i {
   font-size: 60px;
   line-height: 60px;
+  
+
 }
 
 .color-one {
@@ -678,6 +686,7 @@ ul.dropdown-menu li {
   background: url("../images/about/home-page-about.png") no-repeat;
   background-size: cover;
   border-radius: 40px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 2);
 }
 #cta-item {
   border-radius: 40px !important;
@@ -1030,6 +1039,7 @@ h3.quote::before {
 .latest-blog {
   position: relative;
   padding-bottom: 150px;
+  border-radius: 40px;
 }
 
 .mt-70 {
@@ -1521,6 +1531,7 @@ border-bottom: 1px solid #999; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
 }
 
 .card-1 .face.front-face .profile {
